@@ -61,3 +61,31 @@ header {
     padding: 20px;
     background-color: #fff;
 }
+
+
+.card {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    object-fit: cover; /* para manter a proporção da imagem */
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.card-content p {
+    margin-bottom: 0;
+}
