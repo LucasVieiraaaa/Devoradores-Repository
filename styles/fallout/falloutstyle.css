@@ -42,9 +42,7 @@ header {
 
 .sidebar {
     width: 100px;
-    /* background-color: rgb(18, 102, 197); */
     background-color: #fdee72;
-
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -79,8 +77,8 @@ header {
     margin-bottom: 30px;
     border-radius: 5px;
     overflow: hidden;
-    width: 80%; /* Reduz a largura do card */
-    margin: 0 auto; /* Centraliza o card horizontalmente */
+    width: 80%;
+    margin: 0 auto;
     background-color: #3680d4b0;
 }
 
@@ -92,7 +90,7 @@ header {
 
 .card-content {
     padding: 10px;
-    width: 100%; /* Ajusta a largura do conteúdo do card */
+    width: 100%;
 }
 
 .card-content h3 {
@@ -120,9 +118,9 @@ header {
 }
 
 .img-flex {
-    width: 80%; /* Reduz a largura da imagem */
+    width: 80%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    margin: 0 auto;
 }
