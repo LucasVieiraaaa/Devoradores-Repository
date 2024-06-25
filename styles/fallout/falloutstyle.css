@@ -49,6 +49,7 @@ header {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
+
 .sidebar ul {
     list-style: none;
     padding: 0;
@@ -57,11 +58,11 @@ header {
 .sidebar ul li {
     margin: 10px 0;
     display: flex;
-    justify-content: center; /* Centraliza os ícones na barra lateral */
+    justify-content: center;
 }
 
 .sidebar-icon {
-    width: 50px; /* Defina o tamanho desejado para o ícone */
+    width: 50px;
     height: auto;
 }
 
@@ -69,6 +70,7 @@ header {
     flex-grow: 1;
     padding: 20px;
     background-color: #3e97fd;
+    color: white;
 }
 
 .card {
@@ -77,16 +79,20 @@ header {
     margin-bottom: 30px;
     border-radius: 5px;
     overflow: hidden;
+    width: 80%; /* Reduz a largura do card */
+    margin: 0 auto; /* Centraliza o card horizontalmente */
+    background-color: #3680d4b0;
 }
 
 .card img {
     width: 100%;
     height: auto;
-    object-fit: cover; /* para manter a proporção da imagem */
+    object-fit: cover;
 }
 
 .card-content {
     padding: 10px;
+    width: 100%; /* Ajusta a largura do conteúdo do card */
 }
 
 .card-content h3 {
@@ -106,16 +112,63 @@ header {
 
 .img-flex-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Distribui as imagens em duas colunas com tamanhos iguais */
-    gap: 20px; /* Espaçamento entre as imagens */
-    justify-content: center; /* Centraliza o conteúdo na horizontal */
-    margin: 0 auto; /* Margem automática nas laterais para centralizar */
-    max-width: 2000px; /* Defina um tamanho máximo para o card */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 2000px;
 }
 
 .img-flex {
-    width: 100%; /* As imagens ocupam 100% da largura da coluna */
-    height: auto; /* Altura automática para manter a proporção */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    width: 80%; /* Reduz a largura da imagem */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #f32183;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
 }

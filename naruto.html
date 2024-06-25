@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="media/imgs/logo-devoradores.png">
     <link rel="stylesheet" href="styles/naruto/naruto.css" />
-    <link rel="stylesheet" href="styles/minecraft-letters/minecraft.style.css">
+    <link rel="stylesheet" href="styles/misc/minecraft.style.css">
+    <link rel="stylesheet" href="/styles/misc/dark-mode.css">
+    <script src="styles/misc/dark-mode.js"></script>
     <title>Devoradores</title>
 </head>
 
@@ -14,9 +16,14 @@
     <header>
         <div class="header-content">
             <img class="logo" src="media/imgs/logo-devoradores.png" alt="logo" />
-            <nav>
+            <nav style="display: inline;">
+                <a href="#">
+                    <label class="switch">
+                        <input type="checkbox" id="toggle-dark-mode">
+                        <span class="slider"></span>
+                      </label>
+                </a>
                 <a href="#" onclick="alert('Função não implementada...')"><b>Home</b></a>ㅤ
-                <a href="#" onclick="alert('Função não implementada...')"><b>Skins</b></a>ㅤ
                 <a href="#" onclick="alert('Função não implementada...')"><b>Servers</b></a>ㅤㅤ
             </nav>
         </div>
