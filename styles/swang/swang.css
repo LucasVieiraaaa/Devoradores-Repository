@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: #394786;
+    background-color: #104b1c;
     padding: 20px 10px;
     margin: 0;
     width: 100%;
@@ -42,7 +42,7 @@ header {
 
 .sidebar {
     width: 100px;
-    background-color: #485bad;
+    background-color: #0b6e21;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -66,7 +66,7 @@ header {
 .content {
     flex-grow: 1;
     padding: 20px;
-    background-color: rgb(89, 107, 187);
+    background-color: #0a8d27;
 }
 
 .card {
@@ -88,7 +88,7 @@ header {
 .card-content {
     padding: 10px;
     width: 100%;
-    background-color: #252e57;
+    background-color: #104b1c;
     color: white;
 }
 
