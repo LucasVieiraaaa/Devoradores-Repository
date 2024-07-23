@@ -40,7 +40,7 @@
 }
 
 .dark-mode .header-content nav a:hover {
-  color: #ddd163;
+  color: #e0513d;
 }
 
 .dark-mode h1.white, .dark-mode p.white, .dark-mode a.white {
@@ -55,6 +55,9 @@
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
+.dark-mode .container-for-servers{
+  background-color: #1b1b1b;
+}
 
 .switch {
   position: relative;

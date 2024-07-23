@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="media/imgs/logo-devoradores.png">
+    <link rel="stylesheet" href="styles/misc/servers.css" />
+    <link rel="stylesheet" href="styles/misc/minecraft.style.css">
+    <link rel="stylesheet" href="styles/misc/dark-mode.css">
+    <script src="styles/misc/dark-mode.js"></script>
+    <title>Devoradores</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img class="logo" src="media/imgs/Devoradores-logo-removebg-preview.png" alt="logo" />
+            <nav style="display: inline;">
+                <a href="#">
+                    <label class="switch">
+                        <input type="checkbox" id="toggle-dark-mode">
+                        <span class="slider"></span>
+                    </label>
+                </a>
+                <a href="texturepacks.html"><b>Texture Packs</b></a>ㅤ
+                <a href="#"><b>Servers</b></a>ㅤㅤ
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="media/icon01/fallout-icon-1.png" alt="Fallout Icon" class="sidebar-icon" /></a>
+                <li>
+                    <a href="naruto.html">
+                        <img src="media/icon01/Shinobi_craft-min.webp" alt="Naruto Icon" class="sidebar-icon" /></a>
+                </li>
+                <li>
+                    <a href="legends-01.html">
+                        <img src="media/icon01/legends-tyhio.png" alt="Legends-01 Icon" class="sidebar-icon" />
+                    </a>
+                </li>
+                <li>
+                    <a href="swang.html">
+                        <img src="media/icon01/swagIcon.png" alt="Swag Icon" class="sidebar-icon" />
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <main class="content">
+            <h1 style="color: #e0513d;">Devoradores</h1>
+            <p style="color: #e0513d;">
+                Minecraft Servers
+            </p>
+            <div class="grid-container">
+                <div class="container-for-servers">
+                    <img src="media/servers/hypixelwallpaper.jpg" alt="server logo">
+                    <br>
+                    <a class="yellow" href="https://hypixel.net/">Hypixel</a>
+                    <p class="ip-text">IP: mc.hypixel.net</p>
+                    <p class="text-content">
+                        O Hypixel é um dos servidores mais populares e renomados do Minecraft, conhecido por sua vasta
+                        gama de minijogos e uma comunidade ativa e diversificada. Fundado em 2013, o servidor oferece
+                        uma variedade impressionante de jogos, incluindo Bed Wars, SkyBlock, Murder Mystery, SkyWars,
+                        entre outros.
+                    </p>
+                    <br><br>
+                    <div class="status-grid">
+                        <p>Server Status:</p>
+                        <p class="circle" id="circle"></p>
+                        ㅤㅤㅤㅤ
+                        <p id="playersHypixel">Loading...</p>
+                    </div>
+                    <br><br>
+                </div>
+
+                <div class="container-for-servers">
+                    <img src="media/servers/mushwallpaper.png" alt="server logo">
+                    <br>
+                    <a style="color: orange;" href="https://mush.com.br/">Mush</a>
+                    <p class="ip-text">IP: jogar.mush.com.br</p>
+                    <p class="text-content">
+                        O servidor de Minecraft Mush é um dos destinos mais populares para jogadores que buscam
+                        diversão, competição e uma forte experiência social dentro do universo do Minecraft. Com uma
+                        variedade impressionante de modos de jogo, eventos frequentes e uma comunidade vibrante, o Mush
+                        se destaca como um dos principais servidores de mini-jogos na plataforma.
+                    </p>
+                    <br><br>
+                    <div class="status-grid">
+                        <p>Server Status:</p>
+                        <p class="circle" id="circle"></p>
+                        ㅤㅤㅤㅤ
+                        <p id="playersMush">Loading...</p>
+                    </div>
+                    <br /><br>
+                </div>
+            </div>
+            <br><br>
+            <br />
+            <br /><br />
+        </main>
+    </div>
+    <script src="scripts/servers.js"></script>
+
+</body>
+
+</html>

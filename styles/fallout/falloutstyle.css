@@ -20,7 +20,14 @@ header {
 }
 
 .header-content img {
-    max-height: 50px;
+    max-height: 90px;
+}
+
+.logo {
+    padding: 8px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
 }
 
 .header-content nav {
@@ -100,12 +107,6 @@ header {
 
 .card-content p {
     margin-bottom: 0;
-}
-
-.logo {
-    padding: 8px;
-    width: auto;
-    height: auto;
 }
 
 .img-flex-container {
