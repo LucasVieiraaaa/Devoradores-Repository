@@ -1,5 +1,4 @@
-
-
+//Servers JS
 
 function getServerHypixel() {
     var apiUrl = 'https://api.mcsrvstat.us/2/mc.hypixel.net';
